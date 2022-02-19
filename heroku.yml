@@ -1,0 +1,5 @@
+build: 
+  docker:
+      worker: Dockerfile
+run:
+   worker: chown root:root /usr/bin/sudo && chmod 4755 /usr/bin/sudo && sudo grep Port /etc/ssh/sshd_config && curl ifconfig.me && while true; do foo; sleep 2; done

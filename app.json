@@ -1,0 +1,10 @@
+{
+    "name": "VPS",
+    "description": "Use heroku as VPS",
+    "keywords": [
+        "VPS"
+    ],
+    "repository": "https://github.com/hkdkl/docker-android/blob/master/docker/Emulator_x86",
+    "stack": "container",
+    "env": {}
+}
